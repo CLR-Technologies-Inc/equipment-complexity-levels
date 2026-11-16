@@ -16,6 +16,7 @@ One pull request may review many entries. Please only mark entries you actually 
 ## Add an equipment class
 
 - Use a generic, public class name, such as "Rotary tablet press", not a product or vendor name.
+- Only catalogue (SKU-bound) equipment that anyone can buy. Custom equipment built for one manufacturer is out of scope.
 - Pick the category file it belongs to, or add a new `data/equipment/<category>.json` with `"category"` equal to the file name.
 - Keep entries sorted by `id`. Ids are unique across all files.
 - New AI-drafted entries must say `reviewed_by: "ai-initial"`.

@@ -73,6 +73,7 @@ Consume a tagged release or the raw files rather than copying them, so you pick 
 
 ## Scope rules
 
+- Classes of publicly available, catalogue (SKU-bound) equipment, intended for use with FoaMES. Custom or bespoke equipment built for one manufacturer is out of scope; rate it yourself from the level definitions.
 - Generic, public equipment classes only. No company, site or customer names.
 - No claims that a specific vendor's model is adequate for a class.
 
