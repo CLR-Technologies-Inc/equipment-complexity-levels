@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.13']
+    name: Validate (Python ${{ matrix.python-version }})
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Rule checks
+        run: python tools/validate.py --stats
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: JSON Schema check
+        run: |
+          pip install --quiet "jsonschema>=4.18"
+          python - <<'PY'
+          import json, pathlib, jsonschema
+          schema = json.loads(pathlib.Path("schema/equipment-class.schema.json").read_text())
+          for f in sorted(pathlib.Path("data/equipment").glob("*.json")):
+              jsonschema.validate(json.loads(f.read_text()), schema)
+          print("schema ok")
+          PY

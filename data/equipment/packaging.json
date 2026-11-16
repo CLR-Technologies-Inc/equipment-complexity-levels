@@ -1,0 +1,261 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "packaging",
+  "entries": [
+    {
+      "id": "blister-packaging-machine",
+      "name": "Blister packaging machine",
+      "category": "packaging",
+      "ecl": 3,
+      "ecl_rationale": "Coordinated forming, filling, sealing and inspection stations.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "capper",
+      "name": "Capping machine",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Torque-controlled capping.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cartoner",
+      "name": "Cartoner",
+      "category": "packaging",
+      "ecl": 3,
+      "ecl_rationale": "Coordinated carton erection, loading and closing.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "case-erector",
+      "name": "Case erector",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Fixed folding sequence.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "case-sealer",
+      "name": "Case sealer",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Tape or glue sealing.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "checkweigher",
+      "name": "Checkweigher",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Weighs and rejects against limits.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "filler-volumetric",
+      "name": "Volumetric filler",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "One fill function with a PLC and counters.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "flow-wrapper",
+      "name": "Horizontal flow wrapper",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Film registration and seal temperatures.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "form-fill-seal-vertical",
+      "name": "Vertical form-fill-seal machine",
+      "category": "packaging",
+      "ecl": 3,
+      "ecl_rationale": "Coordinated film forming, dosing and sealing.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "labeller",
+      "name": "Labelling machine",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Label placement synchronised to product flow.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "metal-detector-food",
+      "name": "Food metal detector",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Configured product signal compensation and reject.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "palletiser-robotic",
+      "name": "Robotic palletiser",
+      "category": "packaging",
+      "ecl": 3,
+      "ecl_rationale": "Configured pallet patterns per product.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "serialisation-station",
+      "name": "Serialisation and aggregation station",
+      "category": "packaging",
+      "ecl": 3,
+      "ecl_rationale": "Configured coding, vision verification and data exchange.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "shrink-wrapper",
+      "name": "Shrink wrapper",
+      "category": "packaging",
+      "ecl": 2,
+      "ecl_rationale": "Film wrapping and heat tunnel.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "stretch-wrapper",
+      "name": "Stretch wrapper",
+      "category": "packaging",
+      "ecl": 1,
+      "ecl_rationale": "Fixed wrap cycle.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

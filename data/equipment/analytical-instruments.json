@@ -1,0 +1,397 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "analytical-instruments",
+  "entries": [
+    {
+      "id": "autotitrator",
+      "name": "Automatic titrator",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "Configured titration methods and endpoint detection.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "digital-microscope",
+      "name": "Digital microscope with measurement software",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "Imaging with fixed measurement tools.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dsc",
+      "name": "Differential scanning calorimeter",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Programmed thermal methods and baseline interpretation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dynamic-light-scattering",
+      "name": "Dynamic light scattering analyser",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Correlation analysis and model choice affect reported size.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ftir-spectrometer",
+      "name": "FTIR spectrometer",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Interferometer, background handling and spectral library search.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "gas-chromatograph",
+      "name": "Gas chromatograph",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Configured oven programs, inlets and detectors.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hplc-system",
+      "name": "HPLC system",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Configured methods across pump, autosampler, column and detector modules.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "icp-ms",
+      "name": "ICP-MS",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Plasma, interface and mass analyser; interferences and tuning need one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "icp-oes",
+      "name": "ICP-OES spectrometer",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Plasma source with configured methods and interference corrections.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "karl-fischer-titrator",
+      "name": "Karl Fischer titrator",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "One titration principle with configured methods.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "lc-ms-system",
+      "name": "LC-MS system",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Coupled chromatography and mass spectrometry; tuning and spectra need one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "nmr-spectrometer",
+      "name": "NMR spectrometer",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Superconducting magnet, pulse sequences and spectral interpretation need one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "optical-microscope",
+      "name": "Optical microscope",
+      "category": "analytical-instruments",
+      "ecl": 1,
+      "ecl_rationale": "Manual optics with no software.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "particle-size-analyzer-laser",
+      "name": "Laser diffraction particle size analyser",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Optical model selection and dispersion method strongly affect results.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "rheometer",
+      "name": "Rheometer",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Configured oscillatory and rotational test sequences.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "sem",
+      "name": "Scanning electron microscope",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Coupled column, vacuum and detectors; image interpretation needs one microscopist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tem",
+      "name": "Transmission electron microscope",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Alignment, sample preparation and interpretation need one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tga",
+      "name": "Thermogravimetric analyser",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Programmed thermal methods, gas switching and mass loss interpretation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "total-organic-carbon-analyzer",
+      "name": "Total organic carbon analyser",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "One oxidation and detection principle with configured methods.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "uv-vis-spectrophotometer",
+      "name": "UV-Vis spectrophotometer",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "Single measurement principle with configured methods.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "viscometer-rotational",
+      "name": "Rotational viscometer",
+      "category": "analytical-instruments",
+      "ecl": 2,
+      "ecl_rationale": "Torque at a set speed.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "xrd-diffractometer",
+      "name": "X-ray diffractometer",
+      "category": "analytical-instruments",
+      "ecl": 4,
+      "ecl_rationale": "Phase identification and refinement need one crystallography specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "xrf-analyzer",
+      "name": "X-ray fluorescence analyser",
+      "category": "analytical-instruments",
+      "ecl": 3,
+      "ecl_rationale": "Configured calibrations and matrix corrections.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

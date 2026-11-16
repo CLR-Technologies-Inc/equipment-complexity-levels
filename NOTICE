@@ -1,0 +1,13 @@
+Equipment Complexity Levels
+Copyright 2026 CLR Technologies Inc.
+
+Code (tools/, tests/, schema/, .github/) is licensed under the Apache License,
+Version 2.0 (see LICENSE).
+
+Data (data/) is licensed under the Creative Commons Attribution 4.0
+International License (see LICENSE-DATA). When you reuse the data, credit
+"Equipment Complexity Levels, CLR Technologies Inc. and contributors" and link
+to https://github.com/CLR-Technologies-Inc/equipment-complexity-levels.
+
+The Equipment Complexity Level (ECL) scale originates in FoaMES
+(https://github.com/CLR-Technologies-Inc/foames).

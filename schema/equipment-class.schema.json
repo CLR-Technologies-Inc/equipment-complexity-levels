@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CLR-Technologies-Inc/equipment-complexity-levels/schema/equipment-class.schema.json",
+  "$comment": "SPDX-License-Identifier: Apache-2.0",
+  "title": "Equipment Complexity Level category file",
+  "type": "object",
+  "required": ["category", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "$comment": {"type": "string"},
+    "category": {"$ref": "#/$defs/slug"},
+    "entries": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/entry"}}
+  },
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "category", "ecl", "ecl_rationale", "mappings",
+                   "human_expert_recommended", "expert_oversight", "confidence", "reviewed_by"],
+      "properties": {
+        "id": {"$ref": "#/$defs/slug"},
+        "name": {"type": "string", "minLength": 2},
+        "category": {"$ref": "#/$defs/slug"},
+        "ecl": {"type": "integer", "minimum": 1, "maximum": 5},
+        "ecl_rationale": {"type": "string", "minLength": 10},
+        "mappings": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["usp_1058", "iec_61508", "gamp5", "isa95"],
+          "properties": {
+            "usp_1058": {"enum": ["A", "B", "C"]},
+            "iec_61508": {"enum": ["A", "B"]},
+            "gamp5": {"enum": [null, 1, 3, 4, 5]},
+            "isa95": {"enum": [null, "control-module", "equipment-module", "work-unit", "work-center"]}
+          }
+        },
+        "human_expert_recommended": {"type": "boolean"},
+        "expert_oversight": {"enum": ["none", "single", "team"]},
+        "confidence": {"enum": ["low", "medium", "high"]},
+        "reviewed_by": {"type": "string", "minLength": 2}
+      },
+      "allOf": [
+        {"if": {"properties": {"ecl": {"maximum": 3}}},
+         "then": {"properties": {"human_expert_recommended": {"const": false}, "expert_oversight": {"const": "none"}}}},
+        {"if": {"properties": {"ecl": {"const": 4}}},
+         "then": {"properties": {"human_expert_recommended": {"const": true}, "expert_oversight": {"const": "single"}}}},
+        {"if": {"properties": {"ecl": {"const": 5}}},
+         "then": {"properties": {"human_expert_recommended": {"const": true}, "expert_oversight": {"const": "team"}}}}
+      ]
+    }
+  }
+}

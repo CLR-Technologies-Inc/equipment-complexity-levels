@@ -1,0 +1,244 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "material-handling",
+  "entries": [
+    {
+      "id": "automated-guided-vehicle",
+      "name": "Automated guided vehicle (AGV)",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Navigation, traffic management and safety scanners.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "automated-storage-retrieval",
+      "name": "Automated storage and retrieval system",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Coordinated cranes, shuttles and warehouse control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "autonomous-mobile-robot",
+      "name": "Autonomous mobile robot (AMR)",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Map-based navigation and fleet coordination.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "belt-conveyor",
+      "name": "Belt conveyor",
+      "category": "material-handling",
+      "ecl": 2,
+      "ecl_rationale": "Motor and speed with simple interlocks. One function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "bucket-elevator",
+      "name": "Bucket elevator",
+      "category": "material-handling",
+      "ecl": 1,
+      "ecl_rationale": "Fixed-speed vertical conveying.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "forklift",
+      "name": "Forklift truck",
+      "category": "material-handling",
+      "ecl": 2,
+      "ecl_rationale": "Operator-driven with onboard controls.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hand-pallet-truck",
+      "name": "Hand pallet truck",
+      "category": "material-handling",
+      "ecl": 1,
+      "ecl_rationale": "Manual hydraulic lift.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hoist-electric",
+      "name": "Electric chain hoist",
+      "category": "material-handling",
+      "ecl": 1,
+      "ecl_rationale": "Up/down with limit switches.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "loss-in-weight-feeder",
+      "name": "Loss-in-weight feeder",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Gravimetric control with refill and disturbance compensation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "overhead-crane",
+      "name": "Overhead bridge crane",
+      "category": "material-handling",
+      "ecl": 2,
+      "ecl_rationale": "Operator-driven motions with limits and load monitoring.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pneumatic-conveying-system",
+      "name": "Pneumatic conveying system",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Coupled airflow, pressure and material properties.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "roller-conveyor",
+      "name": "Roller conveyor",
+      "category": "material-handling",
+      "ecl": 2,
+      "ecl_rationale": "Zones with accumulation logic.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "screw-feeder",
+      "name": "Screw feeder",
+      "category": "material-handling",
+      "ecl": 2,
+      "ecl_rationale": "Speed controls feed rate.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "sortation-system",
+      "name": "Parcel sortation system",
+      "category": "material-handling",
+      "ecl": 3,
+      "ecl_rationale": "Scanning, routing logic and diverters.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

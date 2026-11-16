@@ -1,0 +1,210 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "inspection-and-test",
+  "entries": [
+    {
+      "id": "automated-optical-inspection",
+      "name": "Automated optical inspection (AOI) for PCBs",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Configured component libraries and defect classification.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "end-of-line-tester",
+      "name": "End-of-line functional tester",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Configured multi-step functional test sequences.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "environmental-test-chamber",
+      "name": "Environmental test chamber",
+      "category": "inspection-and-test",
+      "ecl": 2,
+      "ecl_rationale": "Programmed temperature and humidity profiles.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "helium-leak-detector",
+      "name": "Helium leak detector",
+      "category": "inspection-and-test",
+      "ecl": 2,
+      "ecl_rationale": "Mass spectrometer leak rate in one function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "in-circuit-tester",
+      "name": "In-circuit tester",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Configured fixtures and test programs per board.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "leak-tester-pressure-decay",
+      "name": "Pressure-decay leak tester",
+      "category": "inspection-and-test",
+      "ecl": 2,
+      "ecl_rationale": "Fill, settle and measure cycle against limits.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "machine-vision-camera-inspection",
+      "name": "Machine vision inspection station",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Configured image processing and reject logic.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tensile-tester",
+      "name": "Universal tensile testing machine",
+      "category": "inspection-and-test",
+      "ecl": 2,
+      "ecl_rationale": "Configured test methods with load and extension.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "thermal-imaging-camera",
+      "name": "Thermal imaging camera",
+      "category": "inspection-and-test",
+      "ecl": 1,
+      "ecl_rationale": "Radiometric image with emissivity setting.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ultrasonic-flaw-detector",
+      "name": "Ultrasonic flaw detector",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Calibration and signal interpretation need a qualified operator.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vibration-analyzer-portable",
+      "name": "Portable vibration analyser",
+      "category": "inspection-and-test",
+      "ecl": 2,
+      "ecl_rationale": "Spectrum capture with fixed analysis tools.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "x-ray-inspection-2d",
+      "name": "2D X-ray inspection system",
+      "category": "inspection-and-test",
+      "ecl": 3,
+      "ecl_rationale": "Configured imaging and defect detection.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

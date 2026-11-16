@@ -1,0 +1,397 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "machining-and-forming",
+  "entries": [
+    {
+      "id": "bandsaw",
+      "name": "Bandsaw",
+      "category": "machining-and-forming",
+      "ecl": 1,
+      "ecl_rationale": "Blade speed and feed.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "bench-grinder",
+      "name": "Bench grinder",
+      "category": "machining-and-forming",
+      "ecl": 1,
+      "ecl_rationale": "Fixed-speed abrasive wheel.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "blow-moulding-machine",
+      "name": "Blow moulding machine",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured parison and blow profiles.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cnc-grinder",
+      "name": "CNC surface or cylindrical grinder",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed grinding cycles and wheel dressing.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cnc-lathe",
+      "name": "CNC lathe",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed multi-axis turning with tool offsets.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cnc-machining-centre",
+      "name": "CNC machining centre",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed multi-axis milling, tool changes and work offsets.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "die-casting-machine",
+      "name": "Die casting machine",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured shot profiles and die thermal management.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "drill-press",
+      "name": "Drill press",
+      "category": "machining-and-forming",
+      "ecl": 1,
+      "ecl_rationale": "Spindle speed and manual feed.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "edm-wire",
+      "name": "Wire EDM",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured spark parameters and multi-pass strategies.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "extruder-plastic",
+      "name": "Plastics extruder",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Coupled barrel zones, screw speed and die pressure.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "five-axis-machining-centre",
+      "name": "Five-axis machining centre",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Simultaneous five-axis kinematics and collision avoidance.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "forging-hammer",
+      "name": "Forging hammer",
+      "category": "machining-and-forming",
+      "ecl": 2,
+      "ecl_rationale": "Blow energy and count.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hydraulic-press",
+      "name": "Hydraulic press",
+      "category": "machining-and-forming",
+      "ecl": 2,
+      "ecl_rationale": "Force and stroke set points.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "injection-moulding-machine",
+      "name": "Injection moulding machine",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured multi-stage injection, hold and cooling profiles.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laser-cutter",
+      "name": "CNC laser cutter",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured cutting parameters per material and nesting.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "manual-lathe",
+      "name": "Manual lathe",
+      "category": "machining-and-forming",
+      "ecl": 1,
+      "ecl_rationale": "Operator-controlled turning with no software.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "mechanical-press",
+      "name": "Mechanical press",
+      "category": "machining-and-forming",
+      "ecl": 2,
+      "ecl_rationale": "Fixed stroke with a PLC and counters.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "plasma-cutter-cnc",
+      "name": "CNC plasma cutter",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed paths with torch height control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "press-brake-cnc",
+      "name": "CNC press brake",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed bend sequences and springback compensation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "roll-forming-line",
+      "name": "Roll forming line",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Coordinated stands, cut-off and length control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "servo-press-adaptive",
+      "name": "Servo press with force-displacement monitoring",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmable motion profiles and envelope evaluation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tablet-press",
+      "name": "Rotary tablet press",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Configured compression force control and rejection.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "waterjet-cutter",
+      "name": "Waterjet cutter",
+      "category": "machining-and-forming",
+      "ecl": 3,
+      "ecl_rationale": "Programmed paths with pressure and abrasive control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

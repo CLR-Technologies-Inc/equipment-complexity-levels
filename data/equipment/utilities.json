@@ -1,0 +1,210 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "utilities",
+  "entries": [
+    {
+      "id": "air-compressor",
+      "name": "Air compressor",
+      "category": "utilities",
+      "ecl": 2,
+      "ecl_rationale": "Pressure band control with load/unload.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cleanroom-monitoring-system",
+      "name": "Cleanroom environmental monitoring system",
+      "category": "utilities",
+      "ecl": 3,
+      "ecl_rationale": "Configured particle, pressure and alarm management.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "compressed-air-dryer",
+      "name": "Compressed air dryer",
+      "category": "utilities",
+      "ecl": 2,
+      "ecl_rationale": "Refrigerant or desiccant cycle.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dust-collector",
+      "name": "Dust collector",
+      "category": "utilities",
+      "ecl": 1,
+      "ecl_rationale": "Fan and filter with pulse cleaning.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "emergency-generator",
+      "name": "Emergency generator",
+      "category": "utilities",
+      "ecl": 2,
+      "ecl_rationale": "Auto-start and transfer on mains loss.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hvac-air-handling-unit",
+      "name": "HVAC air handling unit",
+      "category": "utilities",
+      "ecl": 3,
+      "ecl_rationale": "Coupled temperature, humidity and pressure cascades.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "nitrogen-generator",
+      "name": "Nitrogen generator (PSA)",
+      "category": "utilities",
+      "ecl": 2,
+      "ecl_rationale": "Pressure-swing cycle to a purity set point.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "purified-water-system",
+      "name": "Purified water generation system",
+      "category": "utilities",
+      "ecl": 3,
+      "ecl_rationale": "Coupled pretreatment, RO/EDI and monitoring.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "thermal-oxidiser",
+      "name": "Regenerative thermal oxidiser",
+      "category": "utilities",
+      "ecl": 3,
+      "ecl_rationale": "Combustion, valve switching and emissions limits.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ups",
+      "name": "Uninterruptible power supply",
+      "category": "utilities",
+      "ecl": 2,
+      "ecl_rationale": "Battery and inverter switching.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wastewater-treatment-plant",
+      "name": "Wastewater treatment plant",
+      "category": "utilities",
+      "ecl": 4,
+      "ecl_rationale": "Coupled biological and chemical stages; upsets need one process specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wfi-still",
+      "name": "Water-for-injection still",
+      "category": "utilities",
+      "ecl": 3,
+      "ecl_rationale": "Multi-effect distillation with quality monitoring.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

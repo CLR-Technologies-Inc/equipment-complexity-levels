@@ -1,0 +1,244 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "process-vessels-and-reactors",
+  "entries": [
+    {
+      "id": "batch-reactor-recipe",
+      "name": "Batch reactor with recipe control",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "ISA-88 recipes with phases, interlocks and multiple loops.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "continuous-stirred-tank-reactor",
+      "name": "Continuous stirred-tank reactor",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Coupled flow, temperature and level control at steady state.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "crystallizer",
+      "name": "Batch crystalliser",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Configured cooling and seeding profiles.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "distillation-column",
+      "name": "Distillation column",
+      "category": "process-vessels-and-reactors",
+      "ecl": 4,
+      "ecl_rationale": "Coupled multi-stage separation; tuning and upsets need one process specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "evaporator",
+      "name": "Falling-film evaporator",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Coupled heat transfer, vacuum and concentration control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "flow-reactor-microfluidic",
+      "name": "Continuous flow (micro)reactor",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Configured residence time, temperature and dosing.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "glass-lined-reactor",
+      "name": "Glass-lined reactor",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Recipe-driven multi-step operation with lining-damage constraints.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hydrogenation-reactor",
+      "name": "Hydrogenation reactor",
+      "category": "process-vessels-and-reactors",
+      "ecl": 4,
+      "ecl_rationale": "Exothermic gas-liquid reaction with catalyst and hydrogen hazards; one process specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "jacketed-vessel",
+      "name": "Jacketed vessel with temperature control",
+      "category": "process-vessels-and-reactors",
+      "ecl": 2,
+      "ecl_rationale": "Single temperature loop on one vessel.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "liquid-liquid-extractor",
+      "name": "Liquid-liquid extraction column",
+      "category": "process-vessels-and-reactors",
+      "ecl": 3,
+      "ecl_rationale": "Configured flows and interface control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "mixing-tank",
+      "name": "Mixing tank with agitator",
+      "category": "process-vessels-and-reactors",
+      "ecl": 2,
+      "ecl_rationale": "Agitation and level in one function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "polymerisation-reactor",
+      "name": "Polymerisation reactor",
+      "category": "process-vessels-and-reactors",
+      "ecl": 4,
+      "ecl_rationale": "Runaway risk, viscosity change and kinetics need one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pressure-vessel",
+      "name": "Pressure vessel",
+      "category": "process-vessels-and-reactors",
+      "ecl": 1,
+      "ecl_rationale": "Containment rated for pressure; relief device is the safety function.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "storage-tank-atmospheric",
+      "name": "Atmospheric storage tank",
+      "category": "process-vessels-and-reactors",
+      "ecl": 1,
+      "ecl_rationale": "Containment with level indication.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

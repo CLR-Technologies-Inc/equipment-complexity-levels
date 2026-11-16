@@ -1,0 +1,278 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "metrology-and-gauging",
+  "entries": [
+    {
+      "id": "coordinate-measuring-machine",
+      "name": "Coordinate measuring machine (CMM)",
+      "category": "metrology-and-gauging",
+      "ecl": 3,
+      "ecl_rationale": "Programmed multi-point measurement, probe qualification and GD&T evaluation.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dial-indicator",
+      "name": "Dial indicator",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Mechanical displacement reading.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "digital-caliper",
+      "name": "Digital caliper",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Length reading with a simple encoder and display.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "feeler-gauge",
+      "name": "Feeler gauge",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Fixed thickness blades.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "gauge-block-set",
+      "name": "Gauge block set",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Reference standard with no measurement or software.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "go-no-go-gauge",
+      "name": "Go/no-go gauge",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Fixed limits; attribute check with no measured value.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hardness-tester",
+      "name": "Hardness tester (Rockwell/Vickers)",
+      "category": "metrology-and-gauging",
+      "ecl": 2,
+      "ecl_rationale": "Defined load cycle and indentation reading.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "height-gauge-digital",
+      "name": "Digital height gauge",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Single-axis length measurement on a surface plate.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "industrial-ct-scanner",
+      "name": "Industrial X-ray CT scanner",
+      "category": "metrology-and-gauging",
+      "ecl": 4,
+      "ecl_rationale": "Reconstruction, beam hardening and artefact interpretation need one CT specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laser-tracker",
+      "name": "Laser tracker",
+      "category": "metrology-and-gauging",
+      "ecl": 3,
+      "ecl_rationale": "Interferometric 3D measurement with compensation and alignment software.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "micrometer",
+      "name": "Micrometer",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Screw-thread length measurement.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "optical-comparator",
+      "name": "Optical comparator / profile projector",
+      "category": "metrology-and-gauging",
+      "ecl": 2,
+      "ecl_rationale": "Magnified profile against an overlay or edge detection.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "surface-roughness-tester",
+      "name": "Portable surface roughness tester",
+      "category": "metrology-and-gauging",
+      "ecl": 2,
+      "ecl_rationale": "Stylus trace with computed Ra/Rz; fixed algorithms.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "thread-gauge",
+      "name": "Thread gauge",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Fixed thread form; attribute check.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vernier-caliper",
+      "name": "Vernier caliper",
+      "category": "metrology-and-gauging",
+      "ecl": 1,
+      "ecl_rationale": "Direct reading of length; no software.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vision-measuring-system",
+      "name": "Vision measuring system",
+      "category": "metrology-and-gauging",
+      "ecl": 3,
+      "ecl_rationale": "Configured image measurement routines and edge algorithms.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

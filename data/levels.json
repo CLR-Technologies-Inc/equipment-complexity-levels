@@ -1,0 +1,61 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0. The five Equipment Complexity Levels. Tier floors are dated prior recommendations, not measured results.",
+  "version": "0.1.0",
+  "levels": [
+    {
+      "ecl": 1,
+      "name": "Simple tool or apparatus",
+      "usp_1058": ["A", "B"],
+      "iec_61508": ["A"],
+      "gamp5": [null, 1],
+      "minimum_model_tier": "open-weights-small",
+      "agent_loa": 4,
+      "expert_oversight": "none",
+      "outcome": null
+    },
+    {
+      "ecl": 2,
+      "name": "Single-function machine",
+      "usp_1058": ["B"],
+      "iec_61508": ["A", "B"],
+      "gamp5": [1, 3],
+      "minimum_model_tier": "open-weights",
+      "agent_loa": 4,
+      "expert_oversight": "none",
+      "outcome": null
+    },
+    {
+      "ecl": 3,
+      "name": "Configurable multi-step machine or work cell",
+      "usp_1058": ["C"],
+      "iec_61508": ["B"],
+      "gamp5": [3, 4],
+      "minimum_model_tier": "baseline",
+      "agent_loa": 4,
+      "expert_oversight": "none",
+      "outcome": null
+    },
+    {
+      "ecl": 4,
+      "name": "Coupled process equipment",
+      "usp_1058": ["C"],
+      "iec_61508": ["B"],
+      "gamp5": [4, 5],
+      "minimum_model_tier": "frontier",
+      "agent_loa": 3,
+      "expert_oversight": "single",
+      "outcome": "Human Expert Recommended"
+    },
+    {
+      "ecl": 5,
+      "name": "Frontier equipment",
+      "usp_1058": ["C"],
+      "iec_61508": ["B"],
+      "gamp5": [5],
+      "minimum_model_tier": "none-adequate",
+      "agent_loa": 2,
+      "expert_oversight": "team",
+      "outcome": "Expert Team Required"
+    }
+  ]
+}

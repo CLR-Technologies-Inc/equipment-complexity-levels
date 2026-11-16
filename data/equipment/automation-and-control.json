@@ -1,0 +1,176 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "automation-and-control",
+  "entries": [
+    {
+      "id": "barcode-scanner",
+      "name": "Barcode scanner",
+      "category": "automation-and-control",
+      "ecl": 1,
+      "ecl_rationale": "Reads a code.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dcs-controller",
+      "name": "Distributed control system controller",
+      "category": "automation-and-control",
+      "ecl": 3,
+      "ecl_rationale": "Configured control strategies across loops.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hmi-panel",
+      "name": "Operator HMI panel",
+      "category": "automation-and-control",
+      "ecl": 2,
+      "ecl_rationale": "Configured screens over a controller.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pid-controller-standalone",
+      "name": "Standalone PID controller",
+      "category": "automation-and-control",
+      "ecl": 2,
+      "ecl_rationale": "One control loop with tuning.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "plc-controller",
+      "name": "Programmable logic controller",
+      "category": "automation-and-control",
+      "ecl": 3,
+      "ecl_rationale": "Custom logic sets behaviour; complexity is in the program.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "rfid-reader",
+      "name": "RFID reader",
+      "category": "automation-and-control",
+      "ecl": 1,
+      "ecl_rationale": "Reads and writes tags.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "safety-light-curtain",
+      "name": "Safety light curtain",
+      "category": "automation-and-control",
+      "ecl": 1,
+      "ecl_rationale": "Beam interruption trips a safety output; simple but often critical.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "safety-plc",
+      "name": "Safety PLC",
+      "category": "automation-and-control",
+      "ecl": 3,
+      "ecl_rationale": "Configured safety logic under IEC 61508/62061.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "scada-server",
+      "name": "SCADA server",
+      "category": "automation-and-control",
+      "ecl": 3,
+      "ecl_rationale": "Configured tags, alarms and history over many devices.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "variable-frequency-drive",
+      "name": "Variable frequency drive",
+      "category": "automation-and-control",
+      "ecl": 2,
+      "ecl_rationale": "Configured motor control parameters.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

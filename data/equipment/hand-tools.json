@@ -1,0 +1,210 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "hand-tools",
+  "entries": [
+    {
+      "id": "bench-vise",
+      "name": "Bench vise",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Fixture with no measurement or control.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cordless-drill-driver",
+      "name": "Cordless drill/driver",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Simple motor and clutch; clutch setting is the only parameter.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dc-torque-tool-smart",
+      "name": "Electronic torque tool with angle monitoring",
+      "category": "hand-tools",
+      "ecl": 2,
+      "ecl_rationale": "Controller applies torque-angle strategies and logs results; configured but single-function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "glue-gun",
+      "name": "Hot-melt glue gun",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Fixed heater and trigger feed.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hand-crimping-tool",
+      "name": "Hand crimping tool",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Fixed die geometry and ratchet; failure modes are obvious.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hand-deburring-tool",
+      "name": "Hand deburring tool",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Purely mechanical.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hand-screwdriver",
+      "name": "Hand screwdriver",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Purely mechanical, no measured value.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "heat-gun",
+      "name": "Heat gun",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Heater and fan with a set temperature.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pneumatic-impact-wrench",
+      "name": "Pneumatic impact wrench",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Air-driven fixed action; output depends on supply pressure only.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "rivet-gun-manual",
+      "name": "Manual rivet gun",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Single mechanical action with no measurement.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "soldering-iron",
+      "name": "Soldering iron (temperature-controlled)",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "One temperature set point with closed-loop heating.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "torque-wrench",
+      "name": "Torque wrench",
+      "category": "hand-tools",
+      "ecl": 1,
+      "ecl_rationale": "Torque is force times lever arm; a click or reading at a set point. Anchor for ECL 1.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

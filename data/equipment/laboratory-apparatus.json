@@ -1,0 +1,363 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "laboratory-apparatus",
+  "entries": [
+    {
+      "id": "autoclave-benchtop",
+      "name": "Benchtop autoclave",
+      "category": "laboratory-apparatus",
+      "ecl": 2,
+      "ecl_rationale": "Fixed sterilisation cycles with pressure and temperature control.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "benchtop-centrifuge",
+      "name": "Benchtop centrifuge",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Speed and time; imbalance is the main failure mode.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "biosafety-cabinet",
+      "name": "Biological safety cabinet",
+      "category": "laboratory-apparatus",
+      "ecl": 2,
+      "ecl_rationale": "Controlled laminar airflow with alarms.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "conductivity-meter",
+      "name": "Conductivity meter",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Single measured value with cell constant.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "drying-oven-lab",
+      "name": "Laboratory drying oven",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Temperature set point and timer.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "electronic-pipette",
+      "name": "Electronic pipette",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Motorised volume dispensing with simple programs.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "fume-hood",
+      "name": "Fume hood",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Airflow with face-velocity alarm.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hot-plate-stirrer",
+      "name": "Hot plate stirrer",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Speed and one temperature set point.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "incubator-co2",
+      "name": "CO2 incubator",
+      "category": "laboratory-apparatus",
+      "ecl": 2,
+      "ecl_rationale": "Temperature, CO2 and humidity control loops.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laboratory-balance",
+      "name": "Analytical balance",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Measures mass; calibration is the main concern.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laboratory-refrigerator",
+      "name": "Laboratory refrigerator",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Single temperature set point.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laboratory-timer",
+      "name": "Laboratory timer",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Counts time.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "liquid-handling-robot",
+      "name": "Automated liquid handling workstation",
+      "category": "laboratory-apparatus",
+      "ecl": 3,
+      "ecl_rationale": "Configured deck layouts and scripted multi-step protocols.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "magnetic-stirrer",
+      "name": "Magnetic stirrer",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Motor speed only.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "micropipette",
+      "name": "Micropipette",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Fixed or adjustable volume displacement.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ph-meter",
+      "name": "pH meter",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Electrode reading with two- or three-point calibration.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "rotary-evaporator",
+      "name": "Rotary evaporator",
+      "category": "laboratory-apparatus",
+      "ecl": 2,
+      "ecl_rationale": "Bath temperature, vacuum and rotation in one function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ultra-low-freezer",
+      "name": "Ultra-low temperature freezer",
+      "category": "laboratory-apparatus",
+      "ecl": 2,
+      "ecl_rationale": "Cascade refrigeration with alarms.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ultrasonic-bath",
+      "name": "Ultrasonic cleaning bath",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Power, time and temperature.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vortex-mixer",
+      "name": "Vortex mixer",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "Fixed orbital motion.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "water-bath",
+      "name": "Water bath",
+      "category": "laboratory-apparatus",
+      "ecl": 1,
+      "ecl_rationale": "One temperature set point.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

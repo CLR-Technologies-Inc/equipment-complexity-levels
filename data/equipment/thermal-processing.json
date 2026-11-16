@@ -1,0 +1,244 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "thermal-processing",
+  "entries": [
+    {
+      "id": "box-furnace",
+      "name": "Box furnace",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Programmed temperature ramps in one chamber.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "chiller",
+      "name": "Process chiller",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Refrigeration loop to one supply temperature.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cooling-tower",
+      "name": "Cooling tower",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Fan staging and water treatment.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "fluid-bed-dryer",
+      "name": "Fluid bed dryer",
+      "category": "thermal-processing",
+      "ecl": 3,
+      "ecl_rationale": "Configured airflow, temperature and end-point detection.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "freeze-dryer",
+      "name": "Freeze dryer (lyophiliser)",
+      "category": "thermal-processing",
+      "ecl": 4,
+      "ecl_rationale": "Coupled shelf temperature, pressure and product collapse limits; one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "heat-treatment-furnace-controlled",
+      "name": "Heat-treatment furnace with atmosphere control",
+      "category": "thermal-processing",
+      "ecl": 4,
+      "ecl_rationale": "Coupled temperature, atmosphere and metallurgy; one heat-treatment specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "induction-heater",
+      "name": "Induction heater",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Power and time at a fixed coil.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "industrial-boiler",
+      "name": "Steam boiler",
+      "category": "thermal-processing",
+      "ecl": 3,
+      "ecl_rationale": "Combustion, drum level and burner management.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "industrial-oven-conveyor",
+      "name": "Conveyor oven",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Zones at set temperatures with belt speed.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "kiln",
+      "name": "Kiln",
+      "category": "thermal-processing",
+      "ecl": 2,
+      "ecl_rationale": "Programmed firing schedule.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "reflow-oven",
+      "name": "Reflow soldering oven",
+      "category": "thermal-processing",
+      "ecl": 3,
+      "ecl_rationale": "Configured multi-zone thermal profiles per product.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "spray-dryer",
+      "name": "Spray dryer",
+      "category": "thermal-processing",
+      "ecl": 4,
+      "ecl_rationale": "Coupled atomisation, airflow and drying kinetics determine particle properties; one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tray-dryer",
+      "name": "Tray dryer",
+      "category": "thermal-processing",
+      "ecl": 1,
+      "ecl_rationale": "Temperature and time.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vacuum-furnace",
+      "name": "Vacuum furnace",
+      "category": "thermal-processing",
+      "ecl": 4,
+      "ecl_rationale": "Coupled vacuum, temperature and quench; metallurgical outcome needs one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

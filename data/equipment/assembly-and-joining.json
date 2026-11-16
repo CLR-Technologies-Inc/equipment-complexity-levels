@@ -1,0 +1,261 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "assembly-and-joining",
+  "entries": [
+    {
+      "id": "adhesive-dispenser",
+      "name": "Adhesive dispensing system",
+      "category": "assembly-and-joining",
+      "ecl": 2,
+      "ecl_rationale": "Bead volume and path in one function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "collaborative-robot",
+      "name": "Collaborative robot",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Programmed tasks with force limits and safety configuration.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "industrial-robot-arm",
+      "name": "Industrial robot arm",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Programmed multi-axis motion, tooling and interlocks.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "laser-welder",
+      "name": "Laser welding system",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Configured power profiles, optics and motion.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "manual-assembly-workstation",
+      "name": "Manual assembly workstation",
+      "category": "assembly-and-joining",
+      "ecl": 1,
+      "ecl_rationale": "Fixtures and hand tools; no control.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "mig-welder",
+      "name": "MIG/MAG welder",
+      "category": "assembly-and-joining",
+      "ecl": 1,
+      "ecl_rationale": "Voltage and wire feed set by the operator.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pick-and-place-machine",
+      "name": "SMT pick-and-place machine",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Configured feeders, vision alignment and placement programs.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "resistance-spot-welder",
+      "name": "Resistance spot welder",
+      "category": "assembly-and-joining",
+      "ecl": 2,
+      "ecl_rationale": "Weld schedule of current, time and force.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "robotic-welding-cell",
+      "name": "Robotic welding cell",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Programmed robot paths with seam tracking and weld schedules.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "screwdriving-station",
+      "name": "Automated screwdriving station",
+      "category": "assembly-and-joining",
+      "ecl": 2,
+      "ecl_rationale": "One joining function with torque-angle monitoring.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "solder-paste-printer",
+      "name": "Solder paste printer",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Configured stencil alignment and print parameters.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tig-welder",
+      "name": "TIG welder",
+      "category": "assembly-and-joining",
+      "ecl": 1,
+      "ecl_rationale": "Current and gas set by the operator.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": null
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ultrasonic-welder",
+      "name": "Ultrasonic welder",
+      "category": "assembly-and-joining",
+      "ecl": 2,
+      "ecl_rationale": "Energy, amplitude and time at one horn.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wave-soldering-machine",
+      "name": "Wave soldering machine",
+      "category": "assembly-and-joining",
+      "ecl": 3,
+      "ecl_rationale": "Configured flux, preheat and wave parameters.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wire-bonder",
+      "name": "Semiconductor wire bonder",
+      "category": "assembly-and-joining",
+      "ecl": 4,
+      "ecl_rationale": "Ultrasonic bonding on fine pitch with process windows that need one packaging specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

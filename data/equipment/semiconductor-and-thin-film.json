@@ -1,0 +1,329 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "semiconductor-and-thin-film",
+  "entries": [
+    {
+      "id": "ald-reactor",
+      "name": "Atomic layer deposition reactor",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Self-limiting chemistry with tight precursor and purge windows; one specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cmp-tool",
+      "name": "Chemical mechanical planarisation tool",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Coupled slurry, pad, pressure and end-point; one CMP specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cvd-chamber",
+      "name": "CVD chamber",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Coupled chemistry, plasma and thermal process; one deposition specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "dicing-saw",
+      "name": "Wafer dicing saw",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 3,
+      "ecl_rationale": "Programmed cut paths and blade management.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "diffusion-furnace",
+      "name": "Diffusion / oxidation furnace",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 3,
+      "ecl_rationale": "Recipe-driven thermal processes in a tube.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "euv-lithography-system",
+      "name": "EUV lithography system",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 5,
+      "ecl_rationale": "Light source, reflective optics, vacuum and process coupled at the frontier; expert team required.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "team",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "hot-plate-bake",
+      "name": "Wafer bake hot plate",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 2,
+      "ecl_rationale": "Temperature and time with proximity control.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "ion-implanter",
+      "name": "Ion implanter",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Beam generation, dose and angle control; one implant specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "lithography-scanner",
+      "name": "Lithography scanner",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 5,
+      "ecl_rationale": "Many tightly coupled subsystems (optics, stages, metrology, resist, process). No current model is adequate; a distributed team of experts decides. Anchor for ECL 5.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "team",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "mask-aligner",
+      "name": "Mask aligner (contact/proximity)",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 3,
+      "ecl_rationale": "Alignment and exposure in one tool.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "metrology-cd-sem",
+      "name": "Critical dimension SEM",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Measurement recipes and image interpretation at nanometre scale; one metrology specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "molecular-beam-epitaxy",
+      "name": "Molecular beam epitaxy system",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 5,
+      "ecl_rationale": "Ultra-high vacuum growth with many coupled sources and in-situ diagnostics; usually run by a team of specialists.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "team",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "photomask-inspection",
+      "name": "Photomask inspection system",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Defect classification against design data needs one mask specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "photomask-writer",
+      "name": "Photomask (lithography plate) writer",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Writing and correcting a mask needs one mask specialist. Anchor for ECL 4.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 5,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "plasma-etcher",
+      "name": "Plasma etch chamber",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Coupled plasma chemistry and profile control; one etch specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pvd-sputter-chamber",
+      "name": "PVD sputtering chamber",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 4,
+      "ecl_rationale": "Coupled plasma, target and film properties; one deposition specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "spin-coater",
+      "name": "Spin coater",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 2,
+      "ecl_rationale": "Programmed speed and time steps.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wafer-prober",
+      "name": "Wafer prober",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 3,
+      "ecl_rationale": "Configured probing, alignment and test handoff.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "wet-bench",
+      "name": "Wet bench",
+      "category": "semiconductor-and-thin-film",
+      "ecl": 3,
+      "ecl_rationale": "Configured chemical bath sequences and timing.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

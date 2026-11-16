@@ -1,0 +1,108 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "additive-manufacturing",
+  "entries": [
+    {
+      "id": "binder-jet-printer",
+      "name": "Binder jetting printer",
+      "category": "additive-manufacturing",
+      "ecl": 3,
+      "ecl_rationale": "Configured binder saturation and sintering steps.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "directed-energy-deposition",
+      "name": "Directed energy deposition system",
+      "category": "additive-manufacturing",
+      "ecl": 4,
+      "ecl_rationale": "Coupled deposition, motion and thermal history; one AM specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "low",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "fdm-printer",
+      "name": "Fused filament (FDM) 3D printer",
+      "category": "additive-manufacturing",
+      "ecl": 2,
+      "ecl_rationale": "Sliced toolpaths at set temperatures.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "metal-powder-bed-fusion",
+      "name": "Metal laser powder bed fusion system",
+      "category": "additive-manufacturing",
+      "ecl": 4,
+      "ecl_rationale": "Melt-pool physics, residual stress and powder handling need one AM specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "sla-printer",
+      "name": "Stereolithography (SLA) printer",
+      "category": "additive-manufacturing",
+      "ecl": 2,
+      "ecl_rationale": "Layer exposure of resin with post-cure.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "sls-printer",
+      "name": "Selective laser sintering printer",
+      "category": "additive-manufacturing",
+      "ecl": 3,
+      "ecl_rationale": "Coupled laser, powder bed temperature and build parameters.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

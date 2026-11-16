@@ -1,0 +1,193 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "bioprocess",
+  "entries": [
+    {
+      "id": "aseptic-filling-isolator",
+      "name": "Aseptic filling line in an isolator",
+      "category": "bioprocess",
+      "ecl": 4,
+      "ecl_rationale": "Coupled filling, decontamination and environmental control; one aseptic specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-center"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "cell-counter",
+      "name": "Automated cell counter",
+      "category": "bioprocess",
+      "ecl": 2,
+      "ecl_rationale": "Image-based counting with fixed algorithms.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "chromatography-skid",
+      "name": "Process chromatography skid",
+      "category": "bioprocess",
+      "ecl": 3,
+      "ecl_rationale": "Configured multi-step purification methods.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "depyrogenation-tunnel",
+      "name": "Depyrogenation tunnel",
+      "category": "bioprocess",
+      "ecl": 3,
+      "ecl_rationale": "Coupled heating zones, airflow and belt speed.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "flow-cytometer",
+      "name": "Flow cytometer",
+      "category": "bioprocess",
+      "ecl": 3,
+      "ecl_rationale": "Configured lasers, compensation and gating.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pcr-thermal-cycler",
+      "name": "PCR thermal cycler",
+      "category": "bioprocess",
+      "ecl": 2,
+      "ecl_rationale": "Programmed temperature cycles.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "shake-flask-incubator",
+      "name": "Orbital shaking incubator",
+      "category": "bioprocess",
+      "ecl": 2,
+      "ecl_rationale": "Temperature and shaking speed.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "single-use-bioreactor",
+      "name": "Single-use bioreactor",
+      "category": "bioprocess",
+      "ecl": 4,
+      "ecl_rationale": "Coupled cell culture, gas transfer and feeding; one bioprocess specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "stainless-bioreactor",
+      "name": "Stainless-steel bioreactor with SIP",
+      "category": "bioprocess",
+      "ecl": 4,
+      "ecl_rationale": "Cell culture plus sterilisation and multiple control loops; one bioprocess specialist.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": true,
+      "expert_oversight": "single",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "tangential-flow-filtration",
+      "name": "Tangential flow filtration skid",
+      "category": "bioprocess",
+      "ecl": 3,
+      "ecl_rationale": "Coupled flux, transmembrane pressure and concentration.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "vial-washer",
+      "name": "Vial washer",
+      "category": "bioprocess",
+      "ecl": 2,
+      "ecl_rationale": "Fixed washing cycles.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}

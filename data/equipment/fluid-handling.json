@@ -1,0 +1,329 @@
+{
+  "$comment": "SPDX-License-Identifier: CC-BY-4.0",
+  "category": "fluid-handling",
+  "entries": [
+    {
+      "id": "centrifugal-pump",
+      "name": "Centrifugal pump",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Pump curve and NPSH; well-understood failure modes.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "clean-in-place-skid",
+      "name": "Clean-in-place (CIP) skid",
+      "category": "fluid-handling",
+      "ecl": 3,
+      "ecl_rationale": "Configured multi-step cleaning recipes across circuits.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "control-valve",
+      "name": "Control valve with positioner",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Valve, actuator and positioner in one control function.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "decanter-centrifuge",
+      "name": "Decanter centrifuge",
+      "category": "fluid-handling",
+      "ecl": 3,
+      "ecl_rationale": "Coupled bowl speed, differential and feed control.",
+      "mappings": {
+        "usp_1058": "C",
+        "iec_61508": "B",
+        "gamp5": 4,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "filter-housing",
+      "name": "Cartridge filter housing",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Passive filtration with differential pressure.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "filter-press",
+      "name": "Filter press",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Cyclic pressing and discharge.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "flow-meter-coriolis",
+      "name": "Coriolis flow meter",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Transmitter computes mass flow and density.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "flow-meter-magnetic",
+      "name": "Magnetic flow meter",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Faraday principle with a transmitter.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "heat-exchanger-plate",
+      "name": "Plate heat exchanger",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Passive heat transfer; fouling and leaks are the main failure modes.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "homogenizer-high-pressure",
+      "name": "High-pressure homogeniser",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Pressure set point across one valve.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "work-unit"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "level-transmitter-radar",
+      "name": "Radar level transmitter",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Echo processing configured for vessel geometry.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "manual-valve",
+      "name": "Manual valve",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Open or closed by hand.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "metering-pump",
+      "name": "Metering / dosing pump",
+      "category": "fluid-handling",
+      "ecl": 2,
+      "ecl_rationale": "Controlled flow rate with stroke or speed adjustment.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "B",
+        "gamp5": 3,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "medium",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "peristaltic-pump",
+      "name": "Peristaltic pump",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Speed sets flow; tubing wear is the main failure mode.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "positive-displacement-pump",
+      "name": "Positive displacement pump",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Fixed displacement per stroke or turn.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "equipment-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pressure-relief-valve",
+      "name": "Pressure relief valve",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Spring set pressure; a simple but often critical device (criticality is a separate axis).",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "pressure-transmitter",
+      "name": "Pressure transmitter",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "Single measured value with a simple transmitter.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "solenoid-valve",
+      "name": "Solenoid valve",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "On/off actuation.",
+      "mappings": {
+        "usp_1058": "A",
+        "iec_61508": "A",
+        "gamp5": null,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    },
+    {
+      "id": "temperature-transmitter",
+      "name": "Temperature sensor and transmitter",
+      "category": "fluid-handling",
+      "ecl": 1,
+      "ecl_rationale": "RTD or thermocouple reading.",
+      "mappings": {
+        "usp_1058": "B",
+        "iec_61508": "A",
+        "gamp5": 1,
+        "isa95": "control-module"
+      },
+      "human_expert_recommended": false,
+      "expert_oversight": "none",
+      "confidence": "high",
+      "reviewed_by": "ai-initial"
+    }
+  ]
+}
